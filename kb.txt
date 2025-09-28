@@ -1,0 +1,31 @@
+# Estaciones con coordenadas (latitud, longitud)
+station PlazaCentral 9.237 -75.816
+station EstacionNorte 9.250 -75.820
+station EstacionSur 9.220 -75.810
+station EstacionEste 9.240 -75.800
+station EstacionOeste 9.240 -75.830
+
+# Conexiones entre estaciones con tiempo estimado en minutos
+edge PlazaCentral EstacionNorte 5
+edge PlazaCentral EstacionSur 7
+edge PlazaCentral EstacionEste 4
+edge PlazaCentral EstacionOeste 6
+edge EstacionNorte EstacionEste 3
+edge EstacionSur EstacionOeste 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
